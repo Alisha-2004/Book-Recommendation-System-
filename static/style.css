@@ -1,0 +1,27 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-heading {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+}
+
+.book-card {
+    background: white;
+    border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
